@@ -1523,6 +1523,10 @@
         "color": null,
         "url": "https://github.com/trending?l=Tcsh"
     },
+    "Tea": {
+        "color": null,
+        "url": "https://github.com/trending?l=Thrift"
+    },
     "Terra": {
         "color": "#00004c",
         "url": "https://github.com/trending?l=Terra"
