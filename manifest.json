@@ -1,24 +1,25 @@
 {
 
-    "manifest_version": 2,
-    "name": "Github thing",
-    "version": "1.0",
-  
-    "description": "test",
-  
-    "icons": {
-      "48": "icons/border-48.png"
-    },
-    "permissions": [
-        "*://api.github.com/*",
-        "webRequest"
-      ],
-  
-    "content_scripts": [
-      {
-        "matches": ["*://*.github.com/*"],
-        "js": ["main.js"]
-      }
-    ]
-  
-  }
+  "manifest_version": 2,
+  "name": "Github thing",
+  "version": "1.0",
+
+  "description": "test",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "permissions": [
+      "*://api.github.com/*",
+      "*://raw.githubusercontent.com/*",
+      "webRequest"
+    ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+
+}
